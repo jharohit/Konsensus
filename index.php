@@ -5,7 +5,7 @@
 	<script src="http://js.pusher.com/2.0/pusher.min.js"></script>
 </head>
 <body>
-<form method="POST" name="login" action="check.php">
+<form method="GET" name="login" action="check.php">
 Username: <input type="text" name="user">
 <input type="submit" value="Submit">
 </form>
